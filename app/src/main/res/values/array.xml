@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="destination">
+        <item>인천대학교 송도캠퍼스</item>
+        <item>인천대입구역</item>
+        <item>구월동 로데오거리</item>
+        <item>부평 문화의거리</item>
+    </string-array>
+</resources>
