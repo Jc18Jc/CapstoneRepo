@@ -12,15 +12,15 @@
     <!-- 방 참여 레이아웃 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
         android:layout_marginTop="50dp"
-        android:orientation="horizontal"
-        android:layout_marginHorizontal="20dp">
+        android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_marginLeft="0dp"
             app:srcCompat="@mipmap/door" />
 
@@ -31,7 +31,7 @@
             android:layout_marginLeft="20dp"
             android:text="방 참여"
             android:textColor="@color/black"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <!-- 화살표 오른쪽 정렬 -->
@@ -60,15 +60,15 @@
     <!-- 방 만들기 레이아웃 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
         android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        android:layout_marginHorizontal="20dp">
+        android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             app:srcCompat="@mipmap/plus" />
 
         <TextView
@@ -78,7 +78,7 @@
             android:layout_marginLeft="20dp"
             android:text="방 만들기"
             android:textColor="@color/black"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <!-- 화살표 오른쪽 정렬 -->
@@ -106,15 +106,15 @@
     <!-- 즐겨찾기 레이아웃 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
         android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        android:layout_marginHorizontal="20dp">
+        android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             app:srcCompat="@mipmap/star" />
 
         <TextView
@@ -124,7 +124,7 @@
             android:layout_marginLeft="20dp"
             android:text="즐겨찾기 선택"
             android:textColor="@color/black"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <!-- 화살표 오른쪽 정렬 -->
