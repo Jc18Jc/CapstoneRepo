@@ -51,7 +51,13 @@
             android:background="@color/white"
             android:scaleType="fitXY"
             app:srcCompat="@mipmap/filter" />
+
     </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="0" />
 
     <TextView
         android:id="@+id/textView5"
