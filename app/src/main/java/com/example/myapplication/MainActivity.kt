@@ -25,5 +25,9 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+        binding.createLayout.setOnClickListener (View.OnClickListener { startActivity(Intent(this,CreateActivity::class.java)) })
+        binding.joinLayout.setOnClickListener (View.OnClickListener { startActivity(Intent(this,JoinActivity::class.java)) })
+        binding.selectBookmarkLayout.setOnClickListener (View.OnClickListener { startActivity(Intent(this,SelectBookmarkActivity::class.java)) })
+
     }
 }
