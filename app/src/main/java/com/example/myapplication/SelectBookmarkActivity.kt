@@ -25,10 +25,11 @@ class SelectBookmarkActivity : AppCompatActivity() {
         recyclerView.adapter = adapter
     }
     class MyViewHolder(view: View): RecyclerView.ViewHolder(view) {
-        var numberTextView:TextView = itemView.findViewById(R.id.numberText)
-        var pathTextView:TextView = itemView.findViewById(R.id.pathText)
-        var costTextView:TextView = itemView.findViewById(R.id.costText)
-        var timeTextView:TextView = itemView.findViewById(R.id.timeText)
+        var numberTextView:TextView = itemView.findViewById(R.id.numberTextView)
+        var startTextView:TextView = itemView.findViewById(R.id.startTextView)
+        var destinationTextView:TextView = itemView.findViewById(R.id.destinationTextView)
+        var costTextView:TextView = itemView.findViewById(R.id.costTextView)
+        var timeTextView:TextView = itemView.findViewById(R.id.timeTextView)
     }
     class MyAdapter(var list:ArrayList<Bookmark>): RecyclerView.Adapter<MyViewHolder>() {
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
