@@ -11,7 +11,7 @@
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="150dp"
-        android:layout_height="50dp"
+        android:layout_height="45dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
         android:layout_weight="0.1"
@@ -24,11 +24,13 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="470dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="100dp"
         android:layout_weight="0.3"
         android:background="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/menu_bottom_navigation" />
+        app:layout_constraintBottom_toTopOf="@+id/menu_bottom_navigation"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/createButton"

@@ -13,7 +13,7 @@
     <LinearLayout
         android:id="@+id/joinLayout"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="70dp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="80dp"
@@ -46,8 +46,9 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
             app:srcCompat="@mipmap/arrow2" />
     </LinearLayout>
 
@@ -59,7 +60,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="135dp"
         android:background="@color/light_gray"
         android:duplicateParentState="false"
         android:text="Button"
@@ -69,10 +70,10 @@
     <LinearLayout
         android:id="@+id/createLayout"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="150dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -101,8 +102,9 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
             app:srcCompat="@mipmap/arrow2" />
     </LinearLayout>
 
@@ -111,7 +113,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="185dp"
+        android:layout_marginTop="205dp"
         android:background="@color/light_gray"
         android:duplicateParentState="false"
         android:text="Button"
@@ -122,10 +124,10 @@
     <LinearLayout
         android:id="@+id/selectBookmarkLayout"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="220dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -154,8 +156,9 @@
 
         <ImageView
             android:id="@+id/imageView6"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
             app:srcCompat="@mipmap/arrow2" />
     </LinearLayout>
 
@@ -164,7 +167,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="245dp"
+        android:layout_marginTop="275dp"
         android:background="@color/light_gray"
         android:duplicateParentState="false"
         android:text="Button"
@@ -176,10 +179,10 @@
     <LinearLayout
         android:id="@+id/createBookmarkLayout"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="290dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -208,8 +211,9 @@
 
         <ImageView
             android:id="@+id/imageView8"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
             app:srcCompat="@mipmap/arrow2" />
     </LinearLayout>
 
@@ -218,7 +222,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="305dp"
+        android:layout_marginTop="345dp"
         android:background="@color/light_gray"
         android:duplicateParentState="false"
         android:text="Button"
@@ -226,10 +230,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- bottom navigationbar를 밑 정렬 -->
-    <View
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/menu_bottom_navigation"
